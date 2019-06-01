@@ -12,7 +12,7 @@ exports.pop = function () {
   return stack.pop();
 }
 
-// Returnerar det översta elementet i stacken
+// Returnerar det översta elementet i stacken ändrat
 exports.peek = function () {
   return _.last(stack);
 }
